@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent">
+
+    <LinearLayout android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:context=".activity.AddNewItem">
+
+        <TextView android:autoSizeTextType="uniform"
+                tools:targetApi="o"
+            android:textSize="@dimen/text_huge"
+            android:text="@string/enter_the_category"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="20sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Spinner
+            android:layout_gravity="center"
+            android:id="@+id/spinner"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_width="250sp"
+            android:layout_height="40dp"/>
+
+        <TextView android:autoSizeTextType="uniform"
+                tools:targetApi="o"
+            android:layout_marginTop="40sp"
+            android:text="@string/item_name"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textSize="@dimen/text_huge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <EditText
+            android:id="@+id/item_name"
+            android:layout_marginTop="20sp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content" />
+
+        <TextView android:autoSizeTextType="uniform"
+                tools:targetApi="o"
+            android:text="@string/amount"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:layout_marginTop="40sp"
+            android:textSize="@dimen/text_huge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="TextViewEdits" />
+
+        <EditText
+            android:layout_width="250sp"
+            android:layout_gravity="center"
+            android:id="@+id/amount"
+            android:inputType="numberDecimal"
+            android:gravity="center"
+            android:layout_marginTop="30dp"
+            android:layout_height="wrap_content" />
+
+        <TextView android:autoSizeTextType="uniform"
+                tools:targetApi="o"
+            android:text="@string/date"
+            android:textSize="@dimen/text_huge"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:ignore="TextViewEdits" />
+
+        <TextView android:autoSizeTextType="uniform"
+                tools:targetApi="o"
+            android:text="@string/setdate"
+            android:textSize="@dimen/text_huge"
+            android:gravity="center"
+            android:id="@+id/dataPicker"
+            android:inputType="datetime"
+            android:layout_marginTop="30sp"
+            android:layout_gravity="center"
+            android:layout_width="250sp"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginTop="30sp"
+            android:layout_gravity="center"
+            android:id="@+id/submit"
+            android:textSize="@dimen/text_huge"
+            android:text="@string/submit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+</ScrollView>

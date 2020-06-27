@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/allDetails"
+        android:layout_gravity="center"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <TextView android:autoSizeTextType="uniform"
+                tools:targetApi="o"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/all_details"
+            android:textSize="@dimen/text_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/spentAmount"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <TextView android:autoSizeTextType="uniform"
+                tools:targetApi="o"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/spent_amount"
+            android:textSize="@dimen/text_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/addNewITem"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <TextView android:autoSizeTextType="uniform"
+                tools:targetApi="o"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/add_new_item"
+            android:textSize="@dimen/text_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/addNewList"
+        android:layout_gravity="center"
+        android:layout_marginTop="25dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginEnd="25dp"
+        android:layout_width="match_parent"
+        android:layout_height="75dp">
+
+        <TextView android:autoSizeTextType="uniform"
+                tools:targetApi="o"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="@string/add_new_list"
+            android:textSize="@dimen/text_large"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</LinearLayout>
